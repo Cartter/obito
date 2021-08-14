@@ -1,5 +1,7 @@
 - **BOT INVITE:** &rarr; **[top.gg](https://top.gg/bot/530879398488834060)**
 
+<iframe src="https://discordapp.com/widget?id=575100004641800202&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
 ```diff
 # obito# node .
 # [PLAYER] - successfully loaded
