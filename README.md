@@ -1,4 +1,4 @@
-```discord
+```css
 obito# node .
 [PLAYER] - successfully loaded
 [2021-08-14 13:39:31] Sucessful connection
