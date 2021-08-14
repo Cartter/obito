@@ -1,3 +1,5 @@
+- **BOT INVITE:** &rarr; **[top.gg](https://top.gg/bot/530879398488834060)**
+
 ```txt
 - obito# node .-
 [PLAYER] - successfully loaded
@@ -313,5 +315,3 @@ java -jar Lavalink.jar
 - **NodeJs:** &rarr; **[V12](https://nodejs.org/en/)**
 - **Discord.js:** &rarr; **[NPM](https://www.npmjs.com/package/discord.js)**
 - **MySql:** &rarr; **[NPM](https://www.npmjs.com/package/mysql)**
-
-- **bot invite]:** &rarr; **[top.gg](https://top.gg/bot/530879398488834060)**
