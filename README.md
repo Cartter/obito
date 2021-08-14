@@ -1,1 +1,5 @@
 # obito
+
+npm i
+
+node .
