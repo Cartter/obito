@@ -1,4 +1,32 @@
 ```javascript
+ctx.strokeStyle = color;
+ctx.beginPath();
+ctx.arc(avX, height / 2, avRadius + (ctx.lineWidth / 2) - 1, 0, 2 * Math.PI);
+ctx.stroke();
+ctx.closePath();
+
+ctx.font = (Math.floor(58 - author.tag.length)) + 'px Arial';
+
+const name = author.username;
+
+const nameX = (margin * 2) + padding + (avRadius * 2);
+const nameW = ctx.measureText(name).width;
+
+const barWidth = ((width - (margin * 2) - nameX) - padding) + 5;
+const progress = (gainedXp / requiredXp) * 100 * (barWidth / 100);
+
+ctx.lineWidth = barRadius;
+ctx.lineCap = 'round';
+
+ctx.strokeStyle = '#484b4e';
+
+const barX = nameX + 8;
+const barY = ((height - (margin + padding)) - (barRadius / 2));
+
+```
+
+
+```javascript
 require('dotenv/config');
 
 const { readdirSync, readdir } = require('fs');
