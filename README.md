@@ -1,5 +1,3 @@
-# obito
-
-npm i
-
-node .
+```
+a
+```
