@@ -3,14 +3,14 @@
 ```diff
 # obito# node .
 # [PLAYER] - successfully loaded
-+ [2021-08-14 13:39:31] Sucessful connection
-+ [2021-08-14 13:39:37] bot was started
+# [2021-08-14 13:39:31] Sucessful connection
+# [2021-08-14 13:39:37] bot was started
 # Guilds: 308
 # Users: 100.00, 461
 # Emojis 3,830
 # Canais: 8,334
-+ Webhook running at http://0.0.0.0:3151/dblwebhook
-+ Node "localhost" connected.
+# Webhook running at http://0.0.0.0:3151/dblwebhook
+# Node "localhost" connected.
 ```
 
 ```javascript
