@@ -1,7 +1,7 @@
 - **BOT INVITE:** &rarr; **[top.gg](https://top.gg/bot/530879398488834060)**
 
 ```txt
-obito# node . &rarr;
+- obito# node . &rarr;
 [PLAYER] - successfully loaded
 [2021-08-14 13:39:31] Sucessful connection
 [2021-08-14 13:39:37] bot was started
