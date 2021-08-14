@@ -59,12 +59,12 @@ const { Collection, Client, Intents } = require("discord.js");
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 ```
 
-```javascript
+```diff
 npm i
 node .
 ```
 
-```javascript
+```diff
 cd lavalink
 java -jar Lavalink.jar
 ```
