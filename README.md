@@ -12,6 +12,16 @@ Node "localhost" connected.
 ```
 
 ```javascript
+module.exports = mysql.createPool({
+    host: process.env.MYSQL_HOST,
+    user: process.env.MYSQL_USER,
+    password: process.env.MYSQL_PASSWORD,
+    database: process.env.MYSQL_DATABASE,
+    port: parseInt(process.env.MYSQL_PORT)
+})
+```
+
+```javascript
 ctx.strokeStyle = color;
 ctx.beginPath();
 ctx.arc(avX, height / 2, avRadius + (ctx.lineWidth / 2) - 1, 0, 2 * Math.PI);
