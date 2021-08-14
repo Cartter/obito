@@ -1,6 +1,6 @@
 - **BOT INVITE:** &rarr; **[top.gg](https://top.gg/bot/530879398488834060)**
 
-<iframe src="https://discordapp.com/widget?id=575100004641800202&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
 
 ```diff
 # obito# node .
@@ -59,6 +59,35 @@ const { readdirSync, readdir } = require('fs');
 const { Collection, Client, Intents } = require("discord.js");
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
+```
+
+```mysql
+CREATE TABLE `guilds` (
+  `server` varchar(18) NOT NULL,
+  `CHANNEL_IDMEMBERCOUNT` varchar(18) NOT NULL,
+  `CHANNEL_IDWELCOME` varchar(18) NOT NULL,
+  `CHANNEL_IDLEAVE` varchar(18) NOT NULL,
+  `IDCARGOADD` varchar(18) NOT NULL,
+  `CHANNEL_IDLOG` varchar(18) NOT NULL,
+  `prefix` varchar(5) NOT NULL,
+  `lang` varchar(5) NOT NULL DEFAULT 'en'
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `users` (
+  `ID` varchar(18) NOT NULL,
+  `xp` int(18) NOT NULL,
+  `level` int(18) NOT NULL,
+  `guild` varchar(18) NOT NULL,
+  `background` varchar(3000) NOT NULL,
+  `fundo` varchar(3) NOT NULL DEFAULT '1',
+  `color` varchar(18) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+ALTER TABLE `guilds`
+  ADD PRIMARY KEY (`server`,`CHANNEL_IDMEMBERCOUNT`,`CHANNEL_IDWELCOME`,`IDCARGOADD`);
+COMMIT;
+
 ```
 
 ```diff
