@@ -89,9 +89,10 @@ CREATE TABLE `users` (
 ALTER TABLE `guilds`
   ADD PRIMARY KEY (`server`,`CHANNEL_IDMEMBERCOUNT`,`CHANNEL_IDWELCOME`,`IDCARGOADD`);
 COMMIT;
-
 ```
 
+
+- **INSTALL NODE:** 
 ```diff
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - 
 sudo apt-get install nodejs 
@@ -100,6 +101,7 @@ npm i
 node .
 ```
 
+- **INSTALL JAVA:** 
 ```diff
 add-apt-repository ppa:openjdk-r/ppa && apt-get update
 apt install openjdk-11-jdk -y
@@ -107,6 +109,7 @@ apt install openjdk-11-jdk -y
 cd lavalink
 java -jar Lavalink.jar
 ```
+- **COMMANDS:** 
 <table style="background: #000000; color: #fff;">
     <thead>
         <tr>
