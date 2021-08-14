@@ -1,3 +1,17 @@
+```text
+obito# node .
+[PLAYER] - Carregado com sucesso
+[2021-08-14 13:39:31] Sucessful connection
+[2021-08-14 13:39:37] Fui iniciado com sucesso
+Guilds: 308
+Users: 48,461
+Emojis 3,830
+Canais: 8,334
+Webhook running at http://0.0.0.0:3151/dblwebhook
+Node "localhost" connected.
+```
+
+
 ```javascript
 ctx.strokeStyle = color;
 ctx.beginPath();
@@ -22,7 +36,6 @@ ctx.strokeStyle = '#484b4e';
 
 const barX = nameX + 8;
 const barY = ((height - (margin + padding)) - (barRadius / 2));
-
 ```
 
 
