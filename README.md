@@ -60,11 +60,17 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_
 ```
 
 ```diff
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - 
+sudo apt-get install nodejs 
+
 npm i
 node .
 ```
 
 ```diff
+add-apt-repository ppa:openjdk-r/ppa && apt-get update
+apt install openjdk-11-jdk -y
+
 cd lavalink
 java -jar Lavalink.jar
 ```
