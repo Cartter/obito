@@ -1,5 +1,3 @@
-[bot invite](https://top.gg/bot/530879398488834060)
-
 ```txt
 - obito# node .-
 [PLAYER] - successfully loaded
@@ -306,6 +304,9 @@ java -jar Lavalink.jar
     </tbody>
 </table>
 <hr>
+
+
+- **bot invite]:** &rarr; **[top.gg](https://top.gg/bot/530879398488834060))**
 
 ### **Dependency**
 - **NodeJs:** &rarr; **[V12](https://nodejs.org/en/)**
