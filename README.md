@@ -1,16 +1,15 @@
-```text
+```python
 obito# node .
-[PLAYER] - Carregado com sucesso
+[PLAYER] - successfully loaded
 [2021-08-14 13:39:31] Sucessful connection
-[2021-08-14 13:39:37] Fui iniciado com sucesso
+[2021-08-14 13:39:37] bot was started
 Guilds: 308
-Users: 48,461
+Users: 100.00, 461
 Emojis 3,830
 Canais: 8,334
 Webhook running at http://0.0.0.0:3151/dblwebhook
 Node "localhost" connected.
 ```
-
 
 ```javascript
 ctx.strokeStyle = color;
