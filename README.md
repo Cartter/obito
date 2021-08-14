@@ -11,6 +11,10 @@ Webhook running at http://0.0.0.0:3151/dblwebhook
 Node "localhost" connected.
 ```
 
+```
+[] music
+[x] music
+
 ```javascript
 module.exports = mysql.createPool({
     host: process.env.MYSQL_HOST,
