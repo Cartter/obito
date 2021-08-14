@@ -1,0 +1,37 @@
+{
+  "name": "obito",
+  "version": "1.0.0",
+  "description": "",
+  "main": "obito.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.10",
+    "cowsay": "^1.5.0",
+    "cpu-stat": "^2.0.1",
+    "cron": "^1.8.2",
+    "dblapi.js": "^2.4.1",
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "erela.js": "^2.3.3",
+    "erela.js-deezer": "^1.0.7",
+    "erela.js-spotify": "^1.2.0",
+    "express": "^4.17.1",
+    "gifencoder": "^2.0.1",
+    "is-image-url": "^1.1.8",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "mysql": "^2.18.1",
+    "node-osu": "^2.2.1",
+    "snekfetch": "^4.0.4",
+    "uuid": "^8.3.2",
+    "weather-js": "^2.0.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

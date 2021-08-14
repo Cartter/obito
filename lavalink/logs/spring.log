@@ -1,0 +1,96 @@
+2021-07-03 00:29:58.867  INFO 3191 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        5591fd75071b654bb01345c3a0494ce3489b7137-SNAPSHOT
+	Build:          1194
+	Build time:     08.02.2021 16:40:06 UTC
+	Branch          dev
+	Commit:         5591fd7
+	Commit time:    08.02.2021 16:35:22 UTC
+	JVM:            11.0.11
+	Lavaplayer      1.3.67
+
+2021-07-03 00:29:59.387  INFO 3191 --- [main] lavalink.server.Launcher                 : Starting Launcher on vultr.guest with PID 3191 (/root/lavalink/lavalink.jar started by root in /root/lavalink)
+2021-07-03 00:29:59.392  INFO 3191 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-07-03 00:29:59.967  WARN 3191 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-07-03 00:30:03.552  WARN 3191 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-07-03 00:30:03.639  INFO 3191 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-07-03 00:30:03.647  INFO 3191 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3978 ms
+2021-07-03 00:30:04.787  WARN 3191 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-07-03 00:30:05.862  INFO 3191 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-07-03 00:30:06.477  INFO 3191 --- [main] lavalink.server.config.KoeConfiguration  : OS: Linux, Arch: amd64
+2021-07-03 00:30:06.486  INFO 3191 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2021-07-03 00:30:06.493  INFO 3191 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2021-07-03 00:30:06.510  INFO 3191 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2021-07-03 00:30:07.335  INFO 3191 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-07-03 00:30:08.393  INFO 3191 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-07-03 00:30:08.426  INFO 3191 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-07-03 00:30:08.632  INFO 3191 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 1337 (http) with context path ''
+2021-07-03 00:30:08.650  INFO 3191 --- [main] lavalink.server.Launcher                 : Started Launcher in 11.847 seconds (JVM running for 13.532)
+2021-07-03 00:30:08.657  INFO 3191 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/Frederikam/Lavalink/issues/295
+2021-07-03 00:30:23.857  INFO 3191 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-03 00:30:23.867  INFO 3191 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-03 00:30:23.940  INFO 3191 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 71 ms
+2021-07-03 00:30:24.152  INFO 3191 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:41996
+2021-07-03 00:30:24.375  INFO 3191 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from erela.js
+2021-07-03 00:42:19.498  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"568435018502897674","volume":70}
+2021-07-03 00:42:19.615  INFO 3191 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=n6WHpEVPnJQ"
+2021-07-03 00:42:21.306  INFO 3191 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Rema - Fame (Tradução/Legendado)
+2021-07-03 00:42:21.419  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"568435018502897674","track":"QAAAhgIAIlJlbWEgLSBGYW1lIChUcmFkdcOnw6NvL0xlZ2VuZGFkbykAClNqciBMeXJpY3MAAAAAAAGxmAALbjZXSHBFVlBuSlEAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1uNldIcEVWUG5KUQAHeW91dHViZQAAAAAAAAAA"}
+2021-07-03 00:42:21.640  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"1d528e2e16064dfb7a86c236a56da11d","op":"voiceUpdate","guildId":"568435018502897674","event":{"token":"134e400a87fdbe96","guild_id":"568435018502897674","endpoint":"brazil4770.discord.media:443"}}
+2021-07-03 00:42:22.866  INFO 3191 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$572/0x000000084053f440@590e0e6e
+2021-07-03 00:42:22.869  INFO 3191 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2021-07-03 00:42:22.906  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"filters","guildId":"568435018502897674","timescale":{"speed":1,"pitch":1,"rate":1}}
+2021-07-03 00:42:23.069  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"568435018502897674","bands":[{"band":0,"gain":0},{"band":1,"gain":0},{"band":2,"gain":0},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":0},{"band":6,"gain":0},{"band":7,"gain":0},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0},{"band":11,"gain":0},{"band":12,"gain":0},{"band":13,"gain":0},{"band":14,"gain":0}]}
+2021-07-03 00:42:23.070  WARN 3191 --- [XNIO-1 I/O-2] lavalink.server.io.WebSocketHandlers     : The 'equalizer' op has been deprecated in favour of the 'filters' op. Please switch to use that one, as this op will get removed in v4.
+2021-07-03 00:42:23.071  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"filters","guildId":"568435018502897674"}
+2021-07-03 00:42:23.078  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"568435018502897674","bands":[{"band":0,"gain":0},{"band":1,"gain":0},{"band":2,"gain":0},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":0},{"band":6,"gain":0},{"band":7,"gain":0},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0},{"band":11,"gain":0},{"band":12,"gain":0},{"band":13,"gain":0},{"band":14,"gain":0}]}
+2021-07-03 00:42:23.081  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"filters","guildId":"568435018502897674"}
+2021-07-03 00:42:23.086  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"filters","guildId":"568435018502897674","timescale":{"speed":1.2999999523162842,"pitch":1.2999999523162842,"rate":1}}
+2021-07-03 00:42:23.121  INFO 3191 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2021-07-03 00:42:23.162  INFO 3191 --- [lava-daemon-pool-playback-1-thread-1] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: loading with parts [Part{feature=X86.avx2, part=avx2}]
+2021-07-03 00:42:23.190  INFO 3191 --- [lava-daemon-pool-playback-1-thread-1] c.g.n.nativeloader.NativeLibLoader       : Native library detector: loading with parts []
+2021-07-03 00:42:23.195  INFO 3191 --- [lava-daemon-pool-playback-1-thread-1] c.g.n.nativeloader.NativeLibLoader       : Native library detector: successfully loaded.
+2021-07-03 00:42:23.212  INFO 3191 --- [lava-daemon-pool-playback-1-thread-1] c.g.n.nativeloader.NativeLibLoader       : Native library timescale: successfully loaded.
+2021-07-03 00:43:49.146  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"568435018502897674"}
+2021-07-03 00:44:06.895  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"568435018502897674","volume":70}
+2021-07-03 00:44:06.909  INFO 3191 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=rJmDoI40IB8"
+2021-07-03 00:44:07.494  INFO 3191 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track MC POZE DO RODO - MC NÃO E BANDIDO ( VERSÃO PISEIRO ) COM GRAVE
+2021-07-03 00:44:07.517  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"568435018502897674","track":"QAAAqwIAQU1DIFBPWkUgRE8gUk9ETyAtIE1DIE7Dg08gRSBCQU5ESURPICggVkVSU8ODTyBQSVNFSVJPICkgQ09NIEdSQVZFABBESiBLSUlFTCBOTyBCRUFUAAAAAAAEQdgAC3JKbURvSTQwSUI4AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9ckptRG9JNDBJQjgAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-07-03 00:44:07.726  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"1d528e2e16064dfb7a86c236a56da11d","op":"voiceUpdate","guildId":"568435018502897674","event":{"token":"1ab9be2dd9c0fe28","guild_id":"568435018502897674","endpoint":"brazil4770.discord.media:443"}}
+2021-07-03 00:44:20.959  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"filters","guildId":"568435018502897674","timescale":{"speed":1,"pitch":1,"rate":1}}
+2021-07-03 00:44:20.968  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"568435018502897674","bands":[{"band":0,"gain":0},{"band":1,"gain":0},{"band":2,"gain":0},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":0},{"band":6,"gain":0},{"band":7,"gain":0},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0},{"band":11,"gain":0},{"band":12,"gain":0},{"band":13,"gain":0},{"band":14,"gain":0}]}
+2021-07-03 00:44:20.971  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"filters","guildId":"568435018502897674"}
+2021-07-03 00:44:20.973  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"568435018502897674","bands":[{"band":0,"gain":0},{"band":1,"gain":0},{"band":2,"gain":0},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":0},{"band":6,"gain":0},{"band":7,"gain":0},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0},{"band":11,"gain":0},{"band":12,"gain":0},{"band":13,"gain":0},{"band":14,"gain":0}]}
+2021-07-03 00:44:20.974  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"filters","guildId":"568435018502897674"}
+2021-07-03 00:44:20.975  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"filters","guildId":"568435018502897674","timescale":{"speed":1.2999999523162842,"pitch":1.2999999523162842,"rate":1}}
+2021-07-03 00:44:21.566  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"filters","guildId":"568435018502897674","timescale":{"speed":1,"pitch":1,"rate":1}}
+2021-07-03 00:44:21.567  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"filters","guildId":"568435018502897674","timescale":{"speed":1,"pitch":1,"rate":1}}
+2021-07-03 00:44:21.569  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"filters","guildId":"568435018502897674","equalizer":[{"band":1,"gain":0.85},{"band":1,"gain":0.85},{"band":1,"gain":0.85},{"band":1,"gain":0.85},{"band":1,"gain":0.85},{"band":1,"gain":0.85}]}
+2021-07-03 00:48:46.559  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"568435018502897674","track":"QAAAqwIAQU1DIFBPWkUgRE8gUk9ETyAtIE1DIE7Dg08gRSBCQU5ESURPICggVkVSU8ODTyBQSVNFSVJPICkgQ09NIEdSQVZFABBESiBLSUlFTCBOTyBCRUFUAAAAAAAEQdgAC3JKbURvSTQwSUI4AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9ckptRG9JNDBJQjgAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-07-03 00:48:46.662  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"1d528e2e16064dfb7a86c236a56da11d","op":"voiceUpdate","guildId":"568435018502897674","event":{"token":"1ab9be2dd9c0fe28","guild_id":"568435018502897674","endpoint":"brazil4770.discord.media:443"}}
+2021-07-03 00:52:17.785  INFO 3191 --- [XNIO-1 task-6] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=n6WHpEVPnJQ"
+2021-07-03 00:52:18.197  INFO 3191 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track Rema - Fame (Tradução/Legendado)
+2021-07-03 00:52:22.469  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"568435018502897674"}
+2021-07-03 00:52:22.486  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"568435018502897674","track":"QAAAhgIAIlJlbWEgLSBGYW1lIChUcmFkdcOnw6NvL0xlZ2VuZGFkbykAClNqciBMeXJpY3MAAAAAAAGxmAALbjZXSHBFVlBuSlEAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1uNldIcEVWUG5KUQAHeW91dHViZQAAAAAAAAAA"}
+2021-07-03 00:52:22.579  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"1d528e2e16064dfb7a86c236a56da11d","op":"voiceUpdate","guildId":"568435018502897674","event":{"token":"1ab9be2dd9c0fe28","guild_id":"568435018502897674","endpoint":"brazil4770.discord.media:443"}}
+2021-07-03 00:52:31.666  INFO 3191 --- [XNIO-1 task-8] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "https://www.youtube.com/watch?v=rJmDoI40IB8"
+2021-07-03 00:52:32.258  INFO 3191 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded track MC POZE DO RODO - MC NÃO E BANDIDO ( VERSÃO PISEIRO ) COM GRAVE
+2021-07-03 00:53:12.293  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"568435018502897674"}
+2021-07-03 00:53:12.316  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"play","guildId":"568435018502897674","track":"QAAAqwIAQU1DIFBPWkUgRE8gUk9ETyAtIE1DIE7Dg08gRSBCQU5ESURPICggVkVSU8ODTyBQSVNFSVJPICkgQ09NIEdSQVZFABBESiBLSUlFTCBOTyBCRUFUAAAAAAAEQdgAC3JKbURvSTQwSUI4AAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9ckptRG9JNDBJQjgAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-07-03 00:53:12.412  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"1d528e2e16064dfb7a86c236a56da11d","op":"voiceUpdate","guildId":"568435018502897674","event":{"token":"1ab9be2dd9c0fe28","guild_id":"568435018502897674","endpoint":"brazil4770.discord.media:443"}}
+2021-07-03 00:53:21.765  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"568435018502897674","bands":[{"band":0,"gain":0.25},{"band":1,"gain":0.15},{"band":2,"gain":0.1},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":0},{"band":6,"gain":0},{"band":7,"gain":0},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0},{"band":11,"gain":0},{"band":12,"gain":0},{"band":13,"gain":0},{"band":14,"gain":0}]}
+2021-07-03 00:57:52.350  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"568435018502897674","pause":true}
+2021-07-03 00:57:52.702  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"568435018502897674"}
+2021-07-03 00:57:52.970  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"1d528e2e16064dfb7a86c236a56da11d","op":"voiceUpdate","guildId":"568435018502897674","event":{"token":"1ab9be2dd9c0fe28","guild_id":"568435018502897674","endpoint":"brazil4770.discord.media:443"}}
+2021-07-03 01:27:31.167  INFO 3191 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"796476874732732456","volume":70}
+2021-07-03 01:27:32.022  INFO 3191 --- [XNIO-1 task-10] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:used too"
+2021-07-03 01:28:04.432  WARN 3191 --- [XNIO-1 task-12] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.context.request.async.AsyncRequestTimeoutException]
+2021-07-03 01:28:05.874  WARN 3191 --- [lava-daemon-pool-manager-3-thread-1] c.s.d.l.tools.GarbageCollectionMonitor   : Suspicious GC results for the last 2 minutes: [Bucket 0 = 0] [Bucket 20 = 0] [Bucket 50 = 0] [Bucket 200 = 1] [Bucket 500 = 0] [Bucket 2000 = 0] 
+2021-07-03 01:28:11.162  INFO 3191 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: used too
