@@ -1,5 +1,10 @@
-```css
-obito# node .
+[top.gg](https://top.gg/bot/530879398488834060)
+[bot invite](https://discord.com/oauth2/authorize?=&client_id=712471644878405682&scope=bot&permissions=8)
+
+
+
+```txt
+- obito# node .
 [PLAYER] - successfully loaded
 [2021-08-14 13:39:31] Sucessful connection
 [2021-08-14 13:39:37] bot was started
