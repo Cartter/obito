@@ -1,6 +1,5 @@
 - **BOT INVITE:** &rarr; **[top.gg](https://top.gg/bot/530879398488834060)**
 
-- **BOT INVITE:** 
 
 ```diff
 # obito# node .
@@ -15,7 +14,9 @@
 # Node "localhost" connected.
 ```
 
+- **MYSQL:** 
 ```javascript
+- **MYSQL:** 
 module.exports = mysql.createPool({
     host: process.env.MYSQL_HOST,
     user: process.env.MYSQL_USER,
