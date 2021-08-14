@@ -255,7 +255,7 @@ java -jar Lavalink.jar
 </table>
 <hr>
 
-### **Tecnologias**
+### **Dependency**
 - **NodeJs:** &rarr; **[V12](https://nodejs.org/en/)**
 - **Discord.js:** &rarr; **[NPM](https://www.npmjs.com/package/discord.js)**
 - **MySql:** &rarr; **[NPM](https://www.npmjs.com/package/mysql)**
