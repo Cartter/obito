@@ -16,7 +16,6 @@
 
 - **MYSQL:** 
 ```javascript
-- **MYSQL:** 
 module.exports = mysql.createPool({
     host: process.env.MYSQL_HOST,
     user: process.env.MYSQL_USER,
@@ -26,6 +25,7 @@ module.exports = mysql.createPool({
 })
 ```
 
+- **CANVAS:** 
 ```javascript
 ctx.strokeStyle = color;
 ctx.beginPath();
@@ -52,7 +52,7 @@ const barX = nameX + 8;
 const barY = ((height - (margin + padding)) - (barRadius / 2));
 ```
 
-
+- **CONFIG:** 
 ```javascript
 require('dotenv/config');
 
@@ -62,6 +62,7 @@ const { Collection, Client, Intents } = require("discord.js");
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
 ```
 
+- **TABLES:** 
 ```mysql
 CREATE TABLE `guilds` (
   `server` varchar(18) NOT NULL,
