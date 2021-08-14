@@ -305,22 +305,9 @@ java -jar Lavalink.jar
 </table>
 <hr>
 
-
-- **bot invite]:** &rarr; **[top.gg](https://top.gg/bot/530879398488834060))**
-
 ### **Dependency**
 - **NodeJs:** &rarr; **[V12](https://nodejs.org/en/)**
 - **Discord.js:** &rarr; **[NPM](https://www.npmjs.com/package/discord.js)**
 - **MySql:** &rarr; **[NPM](https://www.npmjs.com/package/mysql)**
 
-[BADGE_LICENSE]: https://img.shields.io/github/license/x0n4d0/proffy
-[BADGE_WEB_REACT]: https://img.shields.io/badge/web-react-blue
-[BADGE_MOBILE_REACT_NATIVE]: https://img.shields.io/badge/mobile-react%20native-blueviolet
-[BADGE_SERVER_NODEJS]: https://img.shields.io/badge/server-nodejs-important
-[BADGE_OPEN_SOURCE]: https://badges.frapsoft.com/os/v1/open-source.png?v=103
-[BADGE_NODE_VERSION]: https://img.shields.io/badge/node-12.18.0-green
-[BADGE_NPM_VERSION]: https://img.shields.io/badge/npm-6.14.4-red
-[BADGE_OPEN_ISSUES]: https://img.shields.io/github/issues/x0n4d0/proffy?color=green
-[BADGE_CLOSED_ISSUES]: https://img.shields.io/github/issues-closed/x0n4d0/proffy?color=red
-[BADGE_STARS]: https://img.shields.io/github/stars/x0n4d0/proffy?style=social
-[BADGE_FORKS]: https://img.shields.io/github/forks/x0n4d0/proffy?style=social
+- **bot invite]:** &rarr; **[top.gg](https://top.gg/bot/530879398488834060)**
